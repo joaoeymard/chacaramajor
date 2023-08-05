@@ -1,0 +1,48 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+html, body {
+  background-color: #212529;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner .page-banner {
+  height: 128px;
+  overflow: hidden;
+  margin: 0;
+}
+
+.banner .page-img-perfil {
+  margin: -64px 0 0;
+}
+.banner .page-img-perfil img {
+  height: 128px;
+  width: 128px;
+  border-radius: 50%;
+  border: 5px solid #212529;
+}
+
+.attributes .item-attributes {
+  margin: 0 10px 3px;
+  font-size: small;
+}
+.attributes .icons-attributes {
+  height: 32px;
+  width: 32px;
+  margin: 0;
+}
+
+.actions .btn {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.actions .actions-icon {
+  font-size: 32px;
+  margin: 0 15px 0 5px;
+}
+.actions .actions-label {
+  font-size: medium;
+  flex-grow: 1;
+  text-align: center;
+}
