@@ -5,6 +5,10 @@ html, body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+main {
+  margin-bottom: 86px;
+}
+
 .banner .page-banner {
   height: 128px;
   overflow: hidden;
